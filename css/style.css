@@ -18,7 +18,7 @@ h1 {
 .genre-container {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-    gap: 20px;
+    gap: 5px;
     text-align: center;
     
 }
@@ -32,7 +32,7 @@ h1 {
 
 .movie-card {
     display: grid;
-    grid-template-rows: 100px max-content max-content;
+    grid-template-rows: 120px max-content max-content;
 }
 
 .genre-card {
@@ -51,6 +51,4 @@ img {
     cursor: pointer;
 }
 
-img:hover {
-    scale: 1.1;
-}
+
