@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #56b7f3;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.genre-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 20px;
+    text-align: center;
+    
+}
+
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.movie-card {
+    display: grid;
+    grid-template-rows: 100px max-content max-content;
+}
+
+.genre-card {
+    display: grid;
+    place-content: center center;
+
+    height: 50px;
+
+    background-color: coral;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    transition: scale 0.5s;
+    cursor: pointer;
+}
+
+img:hover {
+    scale: 1.1;
+}
